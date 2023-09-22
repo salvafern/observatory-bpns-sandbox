@@ -17,9 +17,9 @@ jobs:
           PAT: ${{ secrets.PAT }}
           REPO: ${{ github.repository }}
           ASSIGNEE: bulricht
-      - name: rocrate-to-sembench
-        uses: vliz-be-opsci/rocrate-to-sembench@main
-        env:
-          PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.2 # which version to use as default?
+      # - name: rocrate-to-sembench
+      #   uses: vliz-be-opsci/rocrate-to-sembench@main
+      #   env:
+      #     PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.2 # which version to use as default?
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v4
