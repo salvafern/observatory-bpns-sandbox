@@ -193,7 +193,6 @@ datatype mismatch,so,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1912,http://example.com/1912,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,26567,http://example.com/26567,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_regional_mrgid,1,2350,http://example.com/2350,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
-datatype mismatch,so,obs_id,1,BPNS,http://example.com/BPNS,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,organization_edmoid,1,422; 449; 432; 2248,http://example.com/422; 449; 432; 2248,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,ENA_accession_number_project,1,PRJEB51652,http://example.com/PRJEB51652,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,ENA_accession_number_umbrella,1,PRJEB51688,http://example.com/PRJEB51688,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
@@ -2171,7 +2170,6 @@ datatype mismatch,wo,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-
 datatype mismatch,wo,loc_broad_ocean_mrgid,1,1912,http://example.com/1912,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,loc_loc_mrgid,1,26567,http://example.com/26567,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,loc_regional_mrgid,1,2350,http://example.com/2350,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
-datatype mismatch,wo,obs_id,1,BPNS,http://example.com/BPNS,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,organization_edmoid,1,422;449;432;2248,http://example.com/422;449;432;2248,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,ENA_accession_number_project,1,PRJEB51652,http://example.com/PRJEB51652,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,ENA_accession_number_umbrella,1,PRJEB51688,http://example.com/PRJEB51688,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False

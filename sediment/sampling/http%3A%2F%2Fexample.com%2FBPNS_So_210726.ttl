@@ -1,0 +1,124 @@
+
+
+<http://www.embrc.eu/emobon/sampling/BPNS/sediment/http://example.com/BPNS_So_210726> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime '2021-07-26'^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Jonas Mortelmans'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-8781-7915> ;
+    ] ;
+    
+    sosa:resultTime '2021-07-26'^^xsd:string ; 
+    sosa:madeBySampler 'Van Veen Grab'^^xsd:string ; 
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label 'SoSOP3'^^xsd:string ;
+        rdfs:comment 'NA'^^xsd:string ; 
+        ] ; 
+    emobon:tidalStage 'flood_tide'^^xsd:string ;
+    emobon:samplingDepth '22.94'^^xsd:string ; 
+    emobon:waterColumnDepth '26'^^xsd:string ; 
+    emobon:originCountry 'Belgium'^^xsd:string ; 
+    
+    sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest 'micro'^^xsd:string ;
+    
+    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/http://example.com/BPNS_So_210726> ;
+.
+<http://www.embrc.eu/emobon/sample/BPNS/sediment/http://example.com/BPNS_So_210726>
+    a sosa:Sample, prov:Entity ;
+    
+    sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf 'micro'^^xsd:string ;
+    
+    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/http://example.com/BPNS_So_210726/http://example.com/EMOBON_BPNS_So_210726_micro_blank> ;
+.
+<http://www.embrc.eu/emobon/sample/BPNS/sediment/http://example.com/BPNS_So_210726/http://example.com/EMOBON_BPNS_So_210726_micro_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMOBON-210726-330-SoSOP3-Micro-B2'^^xsd:string ; 
+    dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2021-07-26 community collected micro'^^xsd:string ;
+    emobon:enaSampleAccNum 'NA'^^xsd:string ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:sampleDepth '22.94'^^xsd:string ;
+    emobon:hasSampleSize 'NA'^^xsd:string ; 
+    emobon:upperFilterSize 'NA'^^xsd:string ; 
+    emobon:lowerFilterSize 'NA'^^xsd:string ; 
+    
+    sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:isSampleOf 'metagenome'^^xsd:string ;
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf 'micro'^^xsd:string ;
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Jonas Mortelmans'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-8781-7915> ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'Jonas Mortelmans'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-8781-7915> ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'NA'^^xsd:string ;
+        schema:identifier <https://orcid.org/NA> ;
+    ] ; 
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        dct:type "storage"^^xsd:string ; 
+        dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
+        prov:startedAtTime &#39;NA&#39;^^xsd:string ; 
+        
+        prov:wasInformedBy [
+            
+            a prov:Activity ;
+            dct:type "transport"^^xsd:string ; 
+            dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
+            prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+            prov:endedAtTime &#39;NA&#39;^^xsd:string ;
+            
+            prov:wasInformedBy [
+                
+                a prov:Activity ;
+                dct:type "storage"^^xsd:string ; 
+                dct:description "Storage of sample at HMBRC HQ"^^xsd:string ; 
+                prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+                emobon:storageTemp &#39;NA&#39;^^xsd:string ; 
+
+                prov:wasInformedBy [
+                    
+                    a prov:Activity ;
+                    dct:type "transport"^^xsd:string ; 
+                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ; 
+                    prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+                    prov:endedAtTime &#39;NA&#39;^^xsd:string ; 
+                    
+                    prov:wasInformedBy [
+                        a prov:Activity ;
+                        dct:type "storage"^^xsd:string ; 
+                        dct:description "Local storage of the collected sample"^^xsd:string ; 
+                        prov:startedAtTime &#39;2021-07-26&#39;^^xsd:string ;
+                        prov:wasAssociatedWith [
+                            prov:Person, schema:Person ;
+                            schema:name &#39;Jonas Mortelmans&#39;^^xsd:string ;
+                        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-8781-7915> ;
+                        ] ;
+                        emobon:storageTemp &#39;-80&#39;^^xsd:string ; 
+                        emobon:storageLoc 'MSO LifeWatch Lab -80 Freezer'^^xsd:string ; 
+
+                        prov:wasInformedBy <http://www.embrc.eu/emobon/sampling/BPNS/sediment/http://example.com/BPNS_So_210726> ; 
+                    ] ; 
+                ] ; 
+            ] ; 
+        ] ; 
+    ] ;
+.
+
