@@ -2189,7 +2189,6 @@ missing value,ws,ENA_accession_number_sample,45,,,,/github/workspace/logsheets-f
 missing value,ws,ENA_accession_number_sample,46,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,47,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,50,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
-missing value,ws,ENA_accession_number_sample,55,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,61,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,62,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,66,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
@@ -2252,7 +2251,6 @@ datatype mismatch,ws,arr_date_hq,45,2022-01-18 00:00:00,2022-01-18,,/github/work
 datatype mismatch,ws,arr_date_hq,46,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_hq,47,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_hq,50,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
-datatype mismatch,ws,arr_date_hq,55,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_hq,61,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_hq,62,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_hq,66,2022-01-18 00:00:00,2022-01-18,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
@@ -2305,7 +2303,6 @@ datatype mismatch,ws,arr_date_seq,45,2022-02-23 00:00:00,2022-02-23,,/github/wor
 datatype mismatch,ws,arr_date_seq,46,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_seq,47,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_seq,50,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
-datatype mismatch,ws,arr_date_seq,55,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_seq,61,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_seq,62,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,arr_date_seq,66,2022-02-23 00:00:00,2022-02-23,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
@@ -2398,7 +2395,7 @@ datatype mismatch,ws,long_store,51,Y,true,,/github/workspace/logsheets-filtered/
 datatype mismatch,ws,long_store,52,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,long_store,53,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,long_store,54,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
-datatype mismatch,ws,long_store,55,N,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
+datatype mismatch,ws,long_store,55,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,long_store,56,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,long_store,57,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,long_store,58,Y,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
@@ -3378,7 +3375,6 @@ datatype mismatch,ws,ship_date,45,2022-01-10 00:00:00,2022-01-10,,/github/worksp
 datatype mismatch,ws,ship_date,46,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,47,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,50,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
-datatype mismatch,ws,ship_date,55,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,61,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,62,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date,66,2022-01-10 00:00:00,2022-01-10,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
@@ -3431,7 +3427,6 @@ datatype mismatch,ws,ship_date_seq,45,2022-02-22 00:00:00,2022-02-22,,/github/wo
 datatype mismatch,ws,ship_date_seq,46,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date_seq,47,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date_seq,50,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
-datatype mismatch,ws,ship_date_seq,55,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date_seq,61,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date_seq,62,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
 datatype mismatch,ws,ship_date_seq,66,2022-02-22 00:00:00,2022-02-22,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDDate,False
@@ -3954,7 +3949,6 @@ datatype mismatch,ws,failure,45,T,true,,/github/workspace/logsheets-filtered/wat
 datatype mismatch,ws,failure,46,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,failure,47,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,failure,50,T,true,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
-datatype mismatch,ws,failure,55,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,failure,61,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,failure,62,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
 datatype mismatch,ws,failure,66,F,false,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDBoolean,False
