@@ -1,0 +1,124 @@
+
+
+<http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220601> 
+    a sosa:Sampling, prov:Activity ;  
+    
+    dct:type "sampling"^^xsd:string ; 
+    prov:startedAtTime '2022-06-01'^^xsd:string ; 
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Lara Macheriotou'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+    ] ;
+    
+    sosa:resultTime '2022-06-01'^^xsd:string ; 
+    sosa:madeBySampler 'Van Veen Grab'^^xsd:string ; 
+    sosa:usedProcedure [
+        a sosa:Procedure ; 
+        rdfs:label 'SoSOP3'^^xsd:string ;
+        rdfs:comment 'NA'^^xsd:string ; 
+        ] ; 
+    emobon:tidalStage 'flood_tide'^^xsd:string ;
+    emobon:samplingDepth '20.3'^^xsd:string ; 
+    emobon:waterColumnDepth '26'^^xsd:string ; 
+    emobon:originCountry 'Belgium'^^xsd:string ; 
+    
+    sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:hasFeatureOfInterest 'mimarks-specimen'^^xsd:string ;
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest 'meio'^^xsd:string ;
+    
+    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220601> ;
+.
+<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220601>
+    a sosa:Sample, prov:Entity ;
+    
+    sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf 'meio'^^xsd:string ;
+    
+    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220601/EMOBON_BPNS_So_220601_meio_blank> ;
+.
+<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220601/EMOBON_BPNS_So_220601_meio_blank>
+    a sosa:Sample, prov:Entity ;
+    
+    rdfs:label 'EMOBON-220601-BPNS-SoSOP3-Meio-B'^^xsd:string ; 
+    dct:description 'EMOBON mimarks-specimen sediment sample from station BPNS collected on 2022-06-01 community collected meio'^^xsd:string ;
+    emobon:enaSampleAccNum 'NA'^^xsd:string ;
+    emobon:sampleReplicate 'blank'^^xsd:string ;
+    emobon:sampleDepth '20.3'^^xsd:string ;
+    emobon:hasSampleSize 'NA'^^xsd:string ; 
+    emobon:upperFilterSize 'NA'^^xsd:string ; 
+    emobon:lowerFilterSize '0.32'^^xsd:string ; 
+    
+    sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
+    sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf 'meio'^^xsd:string ;
+
+    
+    prov:wasAssociatedWith [
+        a prov:Person, schema:Person ;
+        schema:name 'Lara Macheriotou'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'Lara Macheriotou'^^xsd:string ;
+        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+    ] , [
+        a prov:Person, schema:Person ;
+        schema:name 'NA'^^xsd:string ;
+        schema:identifier <https://orcid.org/NA> ;
+    ] ; 
+    prov:wasGeneratedBy [
+        a prov:Activity ;
+        dct:type "storage"^^xsd:string ; 
+        dct:description "Storage of sample at sequencing centre for subsequent DNA sequencing"^^xsd:string ; 
+        prov:startedAtTime &#39;NA&#39;^^xsd:string ; 
+        
+        prov:wasInformedBy [
+            
+            a prov:Activity ;
+            dct:type "transport"^^xsd:string ; 
+            dct:description "Shipping of sample from HMBRC HQ to sequencing centre"^^xsd:string ; 
+            prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+            prov:endedAtTime &#39;NA&#39;^^xsd:string ;
+            
+            prov:wasInformedBy [
+                
+                a prov:Activity ;
+                dct:type "storage"^^xsd:string ; 
+                dct:description "Storage of sample at HMBRC HQ"^^xsd:string ; 
+                prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+                emobon:storageTemp &#39;NA&#39;^^xsd:string ; 
+
+                prov:wasInformedBy [
+                    
+                    a prov:Activity ;
+                    dct:type "transport"^^xsd:string ; 
+                    dct:description "Shipping of sample to HMBRC HQ"^^xsd:string ; 
+                    prov:startedAtTime &#39;NA&#39;^^xsd:string ;
+                    prov:endedAtTime &#39;NA&#39;^^xsd:string ; 
+                    
+                    prov:wasInformedBy [
+                        a prov:Activity ;
+                        dct:type "storage"^^xsd:string ; 
+                        dct:description "Local storage of the collected sample"^^xsd:string ; 
+                        prov:startedAtTime &#39;2022-06-01&#39;^^xsd:string ;
+                        prov:wasAssociatedWith [
+                            prov:Person, schema:Person ;
+                            schema:name &#39;Lara Macheriotou&#39;^^xsd:string ;
+                        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+                        ] ;
+                        emobon:storageTemp &#39;-20&#39;^^xsd:string ; 
+                        emobon:storageLoc 'UGent MarBiol Freezer #11, Box#69'^^xsd:string ; 
+
+                        prov:wasInformedBy <http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220601> ; 
+                    ] ; 
+                ] ; 
+            ] ; 
+        ] ; 
+    ] ;
+.
+
