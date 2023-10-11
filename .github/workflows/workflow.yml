@@ -19,8 +19,10 @@ jobs:
       - name: rocrate-sembench-setup
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
-          PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.1
+          PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.8
       - name: semantify
         uses: vliz-be-opsci/semantify@main
       - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: workflow run
