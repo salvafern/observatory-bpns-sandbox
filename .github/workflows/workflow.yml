@@ -1,7 +1,7 @@
 on:
-  push:
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 1 */6 *'
 jobs:
   job:
     runs-on: ubuntu-latest
@@ -16,8 +16,8 @@ jobs:
           PAT: ${{ secrets.PAT }}
           REPO: ${{ github.repository }}
           ASSIGNEE: bulricht
-      - name: rocrate-to-sembench
-        uses: vliz-be-opsci/rocrate-to-sembench@main
+      - name: rocrate-sembench-setup
+        uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
           PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.1
       - name: semantify
