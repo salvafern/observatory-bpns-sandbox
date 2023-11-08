@@ -25,7 +25,7 @@
     
     sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:hasFeatureOfInterest 'mimarks-specimen'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:hasFeatureOfInterest 'meio'^^xsd:string ;
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220420> ;
@@ -35,7 +35,7 @@
     
     sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220420/EMOBON_BPNS_So_220420_meio_blank> ;
@@ -45,7 +45,7 @@
     
     rdfs:label 'EMOBON-220420-BPNS-SoSOP3-Meio-B'^^xsd:string ; 
     dct:description 'EMOBON mimarks-specimen sediment sample from station BPNS collected on 2022-04-20 community collected meio'^^xsd:string ;
-    emobon:enaSampleAccNum 'NA'^^xsd:string ;
+    emobon:enaSampleAccNum <https://www.ebi.ac.uk/ena/browser/view/NA> ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
     emobon:sampleDepth '20'^^xsd:string ;
     emobon:hasSampleSize 'NA'^^xsd:string ; 
@@ -54,7 +54,7 @@
     
     sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
 
     
@@ -69,7 +69,7 @@
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
     ] ; 
     prov:wasGeneratedBy [
         a prov:Activity ;

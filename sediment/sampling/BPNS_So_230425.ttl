@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
     ] ;
     
     sosa:resultTime '2023-04-25'^^xsd:string ; 
@@ -24,7 +24,7 @@
     
     sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:hasFeatureOfInterest 'mimarks-specimen'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:hasFeatureOfInterest 'meio'^^xsd:string ;
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_230425> ;
@@ -34,7 +34,7 @@
     
     sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_230425/EMOBON_BPNS_So_230425_meio_blank> ;
@@ -44,7 +44,7 @@
     
     rdfs:label 'EMOBON-230425-BPNS-So3-Meio-B'^^xsd:string ; 
     dct:description 'EMOBON mimarks-specimen sediment sample from station BPNS collected on 2023-04-25 community collected meio'^^xsd:string ;
-    emobon:enaSampleAccNum 'NA'^^xsd:string ;
+    emobon:enaSampleAccNum <https://www.ebi.ac.uk/ena/browser/view/NA> ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
     emobon:hasSampleSize 'NA'^^xsd:string ; 
     emobon:upperFilterSize 'NA'^^xsd:string ; 
@@ -52,18 +52,18 @@
     
     sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'NA'^^xsd:string ;
@@ -107,7 +107,7 @@
                         prov:wasAssociatedWith [
                             prov:Person, schema:Person ;
                             schema:name &#39;Lara Macheriotou&#39;^^xsd:string ;
-                        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0002-5662-5689> ;
+                        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
                         ] ;
                         emobon:storageTemp &#39;-20&#39;^^xsd:string ; 
                         emobon:storageLoc 'UGent MarBiol Freezer #11, Box#61'^^xsd:string ; 

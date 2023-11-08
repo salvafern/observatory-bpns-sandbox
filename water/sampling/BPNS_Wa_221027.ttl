@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
     ] ;
     
     sosa:resultTime '2022-10-27'^^xsd:string ; 
@@ -25,7 +25,7 @@
     
     sosa:hasFeatureOfInterest 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_221027> ;
 .
@@ -34,7 +34,7 @@
     
     sosa:isSampleOf 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_221027_200um_blank> ;
 .
@@ -43,7 +43,7 @@
     
     rdfs:label 'EMOBON 221027 BPNS Wa 200 Blank'^^xsd:string ; 
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2022-10-27 size fraction >200um'^^xsd:string ;
-    emobon:enaSampleAccNum 'NA'^^xsd:string ;
+    emobon:enaSampleAccNum <https://www.ebi.ac.uk/ena/browser/view/NA> ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
     emobon:sampleDepth '20'^^xsd:string ;
     emobon:hasSampleSize '0.25'^^xsd:string ; 
@@ -54,17 +54,17 @@
     
     sosa:isSampleOf 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'NA'^^xsd:string ;
@@ -108,7 +108,7 @@
                         prov:wasAssociatedWith [
                             prov:Person, schema:Person ;
                             schema:name &#39;Rune Lagaisse&#39;^^xsd:string ;
-                        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+                        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
                         ] ;
                         emobon:storageTemp &#39;-80&#39;^^xsd:string ; 
                         emobon:storageLoc 'MSO LifeWatch Lab -80 Freezer'^^xsd:string ; 

@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
     ] ;
     
     sosa:resultTime '2022-04-20'^^xsd:string ; 
@@ -25,7 +25,7 @@
     
     sosa:hasFeatureOfInterest 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;
     sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_220420> ;
 .
@@ -34,7 +34,7 @@
     
     sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
     
     sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_220420_200um_blank> ;
 .
@@ -53,13 +53,13 @@
     
     sosa:isSampleOf 'seawater [ENVO:00002149]'^^xsd:string, 'coastal sea water [ENVO:00002150]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=http%3A%2F%2Fexample.com%2F32644> ; 
+    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https%3A%2F%2Forcid.org%2F0000-0001-9191-9140> ;
+        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'NA'^^xsd:string ;

@@ -1,2 +1,0 @@
-ERROR:py_data_rules.rule_engine:rule evaluation failed for arr_date_hq_after_ship_date with exception ValueError: time data 'to_arrive_' does not match format '%Y-%m-%d'
-ERROR:py_data_rules.rule_engine:rule evaluation failed for ship_date_after_samp_store_date with exception ValueError: time data 'to_arrive_' does not match format '%Y-%m-%d'

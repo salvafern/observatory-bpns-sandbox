@@ -58,6 +58,34 @@
     sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2> ; 
 .
 
+<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2/nitrate>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> ;
+
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue '15.1'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
+    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2> ; 
+.
+
+<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2/nitrite>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> ;
+
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue '0.04'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
+    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2> ; 
+.
+
 <http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2/sea_subsurf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
@@ -111,5 +139,19 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
+    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2> ; 
+.
+
+<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2/silicate>
+    a sosa:Observation, schema:Observation ;
+    sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ;
+
+    sosa:hasResult [
+        a sosa:Result ; 
+        rdf:type qudt:QuantityValue ; 
+        qudt:numericValue '7.23'^^xsd:string ; 
+        qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
+    ] ;
+    schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
     sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_230216_3um_2> ; 
 .

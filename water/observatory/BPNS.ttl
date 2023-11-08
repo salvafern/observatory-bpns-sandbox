@@ -23,18 +23,18 @@
         a schema:Project ; 
         schema:name 'EMOBON'^^xsd:string ; 
         schema:description "The EMO BON project"^^xsd:string ; 
-        emobon:enaProjAccNum 'http://example.com/PRJEB51688'^^xsd:string ; 
+        emobon:enaProjAccNum <https://www.ebi.ac.uk/ena/browser/view/https://www.ebi.ac.uk/ena/browser/view/PRJEB51688> ; 
     ] ; 
     emobon:siteInfo 'Station that has historic data going back to 1980’s and has monthly environmental measurements since 2001. Site participated in Ocean Sampling day activities for years 2012 2017 2018 2019 2020 and OSD12x. Parallel genomic biodiversity sampling in 2014 and monthly in 2016. The spring phytoplankton bloom (expressed as chlorophyll a) typically occurs between March to May. A spring diatom community is ‘followed’ by a bloom of Phaeocystis globosa and a summer diatom bloom. (Desmit. et al. 2015). A number of potentially harmful algal species occur such as Pseudo-nitzschia and several dinoflagellate genera (e.g. Prorocentrum Alexandrium..). (Nohe et al. 2019). BPNS is characterised by high antropogenic activity (Intense shipping traffic offshore windmill farms dredging etc.)'^^xsd:string ; 
     
     emobon:broadBiome  'marine biome [ENVO:00000447]'^^xsd:string,  'marine pelagic biome [ENVO:01000023]'^^xsd:string;
     emobon:localBiome 'marine pelagic feature [ENVO:01000044]'^^xsd:string, 'marine water body [ENVO:00001999]'^^xsd:string, 'costal water body [ENVO:02000049]'^^xsd:string;
     emobon:marineRegionName 'North Atlantic Ocean'^^xsd:string ;
-    emobon:marineRegion <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F1912> ;
+    emobon:marineRegion <http://marineregions.org/mrgid/http://marineregions.org/mrgid/1912> ;
     emobon:marineRegionName 'North Sea'^^xsd:string ;
-    emobon:marineRegion <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F2350> ;
+    emobon:marineRegion <http://marineregions.org/mrgid/http://marineregions.org/mrgid/2350> ;
     emobon:marineRegionName 'Belgian part of the North Sea'^^xsd:string ;
-    emobon:marineRegion <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F26567> ;
+    emobon:marineRegion <http://marineregions.org/mrgid/http://marineregions.org/mrgid/26567> ;
 
     emobon:geoLocation [ 
         a sf:Point ; 
@@ -43,7 +43,7 @@
     schema:contactPoint [ 
         a emobon:Organization ; 
         schema:legalName 'Flanders Marine Institute (VLIZ)'^^xsd:string ; 
-        emobon:edmoId 'http://example.com/422'^^xsd:anyURI ; 
+        emobon:edmoId <https://edmo.seadatanet.org/report/https://edmo.seadatanet.org/report/422> ; 
         schema:address [
             a schema:PostalAddress ; 
             schema:addressCountry 'Belgium'^^xsd:string ; 
@@ -51,14 +51,14 @@
             a schema:Person ;
             schema:name 'Klaas Deneudt'^^xsd:string ;
             schema:email 'klaas.deneudt@vliz.be'^^xsd:string ;
-            schema:identifier <https://https://orcid.org/0000-0002-8559-3508> ; 
+            schema:identifier <https://orcid.org/https://orcid.org/0000-0002-8559-3508> ; 
         ]
         ] ; 
     ] ; 
     schema:contactPoint [ 
         a emobon:Organization ; 
         schema:legalName 'Ghent University'^^xsd:string ; 
-        emobon:edmoId '449'^^xsd:anyURI ; 
+        emobon:edmoId <https://edmo.seadatanet.org/report/449> ; 
         schema:address [
             a schema:PostalAddress ; 
             schema:addressCountry 'Belgium'^^xsd:string ;
@@ -67,7 +67,7 @@
     schema:contactPoint [ 
         a emobon:Organization ; 
         schema:legalName 'Royal Belgian Institute of Natural Sciences'^^xsd:string ; 
-        emobon:edmoId '432'^^xsd:anyURI ; 
+        emobon:edmoId <https://edmo.seadatanet.org/report/432> ; 
         schema:address [
             a schema:PostalAddress ; 
             schema:addressCountry 'Belgium'^^xsd:string ;
@@ -76,7 +76,7 @@
     schema:contactPoint [ 
         a emobon:Organization ; 
         schema:legalName 'Katholieke Universiteit Leuven'^^xsd:string ; 
-        emobon:edmoId '2248'^^xsd:anyURI ; 
+        emobon:edmoId <https://edmo.seadatanet.org/report/2248> ; 
         schema:address [
             a schema:PostalAddress ; 
             schema:addressCountry 'Belgium'^^xsd:string ;
@@ -84,20 +84,20 @@
     ] ;
     emobon:waterColumnDepth '26'^^xsd:integer ; 
     emobon:originCountry 'Belgium'^^xsd:string ;    
-    emobon:enaStudyAccNum 'http://example.com/PRJEB51652'^^xsd:string ; 
+    emobon:enaStudyAccNum <https://www.ebi.ac.uk/ena/browser/view/https://www.ebi.ac.uk/ena/browser/view/PRJEB51652> ; 
     emobon:hasMixsPackage 'water'^^xsd:string ; 
 .
 
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F1912>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F2350> ;
+<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912>
+    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F2350>
-    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F26567> ;
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F1912> ; 
+<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350>
+    mr:contains <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567> ;
+    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F1912> ; 
 .
 
-<http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F26567>
-    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fexample.com%2F2350> ;
+<http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F26567>
+    mr:isPartOf <http://marineregions.org/mrgid/http%3A%2F%2Fmarineregions.org%2Fmrgid%2F2350> ;
 .
