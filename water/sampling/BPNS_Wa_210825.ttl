@@ -1,6 +1,6 @@
 
 
-<http://www.embrc.eu/emobon/sampling/BPNS/water/BPNS_Wa_210825> 
+<http://data.emobon.embrc.eu/emobon/sampling/BPNS/water/BPNS_Wa_210825> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ; 
@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Sander Delacauw'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5400-2891> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5400-2891&#39;^^xsd:anyURI ;
     ] ;
     
     sosa:resultTime '2021-08-25'^^xsd:string ; 
@@ -25,25 +25,25 @@
     
     sosa:hasFeatureOfInterest 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:hasFeatureOfInterest &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_210825> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_210825> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_210825>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/water/BPNS_Wa_210825>
     a sosa:Sample, prov:Entity ;
     
     sosa:isSampleOf 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210825_200um_blank> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210825_200um_blank> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210825_200um_blank>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210825_200um_blank>
     a sosa:Sample, prov:Entity ;
     
     rdfs:label 'EMOBON 210825 330 WaSOP3 200µm Blank'^^xsd:string ; 
     dct:description 'EMOBON metagenome water sample from station BPNS collected on 2021-08-25 size fraction >200um'^^xsd:string ;
-    emobon:enaSampleAccNum <https://www.ebi.ac.uk/ena/browser/view/NA> ;
+    emobon:enaSampleAccNum &#39;NA&#39;^^xsd:anyURI ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
     emobon:sampleDepth '18.66'^^xsd:string ;
     emobon:hasSampleSize '0.25'^^xsd:string ; 
@@ -54,21 +54,21 @@
     
     sosa:isSampleOf 'MilliQ water [ENVO:00003065]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Sander Delacauw'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5400-2891> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5400-2891&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Sander Delacauw'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5400-2891> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5400-2891&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
+        schema:identifier &#39;https://orcid.org/0000-0001-9191-9140&#39;^^xsd:anyURI ;
     ] ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
@@ -108,12 +108,12 @@
                         prov:wasAssociatedWith [
                             prov:Person, schema:Person ;
                             schema:name &#39;Sander Delacauw&#39;^^xsd:string ;
-                        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5400-2891> ;
+                        schema:identifier &#39;https://orcid.org/0000-0002-5400-2891&#39;^^xsd:anyURI ;
                         ] ;
                         emobon:storageTemp &#39;-80&#39;^^xsd:string ; 
                         emobon:storageLoc 'MSO LifeWatch Lab -80 Freezer'^^xsd:string ; 
 
-                        prov:wasInformedBy <http://www.embrc.eu/emobon/sampling/BPNS/water/BPNS_Wa_210825> ; 
+                        prov:wasInformedBy <http://data.emobon.embrc.eu/emobon/sampling/BPNS/water/BPNS_Wa_210825> ; 
                     ] ; 
                 ] ; 
             ] ; 

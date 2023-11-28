@@ -1,6 +1,6 @@
 
 
-<http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_211028> 
+<http://data.emobon.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_211028> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ; 
@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5662-5689&#39;^^xsd:anyURI ;
     ] ;
     
     sosa:resultTime '2021-10-28'^^xsd:string ; 
@@ -25,22 +25,22 @@
     
     sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:hasFeatureOfInterest 'mimarks-specimen'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:hasFeatureOfInterest &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:hasFeatureOfInterest 'meio'^^xsd:string ;
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028>
     a sosa:Sample, prov:Entity ;
     
     sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028/EMOBON_BPNS_So_211028_meio_blank> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028/EMOBON_BPNS_So_211028_meio_blank> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028/EMOBON_BPNS_So_211028_meio_blank>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_211028/EMOBON_BPNS_So_211028_meio_blank>
     a sosa:Sample, prov:Entity ;
     
     rdfs:label 'EMOBON-211028-BPNS-SoSOP3-Meio-B'^^xsd:string ; 
@@ -53,22 +53,22 @@
     
     sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'mimarks-specimen'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:isSampleOf 'meio'^^xsd:string ;
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5662-5689&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Lara Macheriotou'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
+        schema:identifier &#39;https://orcid.org/0000-0002-5662-5689&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'Annelien Rigaux'^^xsd:string ;
-        schema:identifier <https://orcid.org/NA> ;
+        schema:identifier &#39;NA&#39;^^xsd:anyURI ;
     ] ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
@@ -108,12 +108,12 @@
                         prov:wasAssociatedWith [
                             prov:Person, schema:Person ;
                             schema:name &#39;Lara Macheriotou&#39;^^xsd:string ;
-                        schema:identifier <https://orcid.org/https://orcid.org/0000-0002-5662-5689> ;
+                        schema:identifier &#39;https://orcid.org/0000-0002-5662-5689&#39;^^xsd:anyURI ;
                         ] ;
                         emobon:storageTemp &#39;-20&#39;^^xsd:string ; 
                         emobon:storageLoc 'UGent MarBiol Freezer #11, Box#65'^^xsd:string ; 
 
-                        prov:wasInformedBy <http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_211028> ; 
+                        prov:wasInformedBy <http://data.emobon.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_211028> ; 
                     ] ; 
                 ] ; 
             ] ; 

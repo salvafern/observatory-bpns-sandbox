@@ -2,7 +2,7 @@
 
 
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/diss_oxygen>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/diss_oxygen>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
     
@@ -13,10 +13,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/ph>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/ph>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600278/> ;
     
@@ -27,10 +27,10 @@
         qudt:unit 'NA'^^xsd:string ; 
     ] ;
     schema:measurementTechnique 'Hanna Instruments 991001 ph meter'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/pressure>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/pressure>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
     
@@ -41,10 +41,10 @@
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/redox_potential>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/redox_potential>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P09/current/REDS/> ;
     
@@ -55,10 +55,10 @@
         qudt:unit <https://vocab.nerc.ac.uk/collection/P06/current/UUMV/> ; 
     ] ;
     schema:measurementTechnique 'NA'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sea_surf_salinity>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sea_surf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
     
@@ -69,10 +69,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sea_surf_temp>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sea_surf_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
     
@@ -83,10 +83,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .
 
-<http://www.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sediment_temp>
+<http://data.emobon.embrc.eu/emobon/id/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2/sediment_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <https://vocab.lternet.edu/vocab/vocab/index.php?tema=530&/soil-temperature> ;
     
@@ -97,5 +97,5 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/EMOBON_BPNS_So_220601_meio_2> ; 
 .

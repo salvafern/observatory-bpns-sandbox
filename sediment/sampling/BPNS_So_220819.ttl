@@ -1,6 +1,6 @@
 
 
-<http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220819> 
+<http://data.emobon.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220819> 
     a sosa:Sampling, prov:Activity ;  
     
     dct:type "sampling"^^xsd:string ; 
@@ -8,7 +8,7 @@
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
+        schema:identifier &#39;https://orcid.org/0000-0001-9191-9140&#39;^^xsd:anyURI ;
     ] ;
     
     sosa:resultTime '2022-08-19'^^xsd:string ; 
@@ -25,27 +25,27 @@
     
     sosa:hasFeatureOfInterest 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:hasFeatureOfInterest 'metagenome'^^xsd:string ;
-    sosa:hasFeatureOfInterest <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:hasFeatureOfInterest &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:hasFeatureOfInterest 'micro'^^xsd:string ;
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819>
     a sosa:Sample, prov:Entity ;
     
     sosa:isSampleOf 'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:isSampleOf 'micro'^^xsd:string ;
     
-    sosa:hasResult <http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819/EMOBON_BPNS_So_220819_micro_blank> ;
+    sosa:hasResult <http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819/EMOBON_BPNS_So_220819_micro_blank> ;
 .
-<http://www.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819/EMOBON_BPNS_So_220819_micro_blank>
+<http://data.emobon.embrc.eu/emobon/sample/BPNS/sediment/BPNS_So_220819/EMOBON_BPNS_So_220819_micro_blank>
     a sosa:Sample, prov:Entity ;
     
     rdfs:label 'EMOBON-220819-BPNS-So3-Micro-B2'^^xsd:string ; 
     dct:description 'EMOBON metagenome sediment sample from station BPNS collected on 2022-08-19 community collected micro'^^xsd:string ;
-    emobon:enaSampleAccNum <https://www.ebi.ac.uk/ena/browser/view/NA> ;
+    emobon:enaSampleAccNum &#39;NA&#39;^^xsd:anyURI ;
     emobon:sampleReplicate 'blank'^^xsd:string ;
     emobon:sampleDepth '19.9'^^xsd:string ;
     emobon:hasSampleSize 'NA'^^xsd:string ; 
@@ -54,22 +54,22 @@
     
     sosa:isSampleOf'sediment [ENVO:00002007]'^^xsd:string;
     sosa:isSampleOf 'metagenome'^^xsd:string ;
-    sosa:isSampleOf <https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644> ; 
+    sosa:isSampleOf &#39;https://www.ncbi.nlm.nih.gov/taxonomy/browser/wwwtax.cgi?id=32644&#39;^^xsd:anyURI ; 
     sosa:isSampleOf 'micro'^^xsd:string ;
 
     
     prov:wasAssociatedWith [
         a prov:Person, schema:Person ;
         schema:name 'Rune Lagaisse'^^xsd:string ;
-        schema:identifier <https://orcid.org/https://orcid.org/0000-0001-9191-9140> ;
+        schema:identifier &#39;https://orcid.org/0000-0001-9191-9140&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'NA'^^xsd:string ;
-        schema:identifier <https://orcid.org/NA> ;
+        schema:identifier &#39;NA&#39;^^xsd:anyURI ;
     ] , [
         a prov:Person, schema:Person ;
         schema:name 'NA'^^xsd:string ;
-        schema:identifier <https://orcid.org/NA> ;
+        schema:identifier &#39;NA&#39;^^xsd:anyURI ;
     ] ; 
     prov:wasGeneratedBy [
         a prov:Activity ;
@@ -109,12 +109,12 @@
                         prov:wasAssociatedWith [
                             prov:Person, schema:Person ;
                             schema:name &#39;NA&#39;^^xsd:string ;
-                        schema:identifier <https://orcid.org/NA> ;
+                        schema:identifier &#39;NA&#39;^^xsd:anyURI ;
                         ] ;
                         emobon:storageTemp &#39;NA&#39;^^xsd:string ; 
                         emobon:storageLoc 'NA'^^xsd:string ; 
 
-                        prov:wasInformedBy <http://www.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220819> ; 
+                        prov:wasInformedBy <http://data.emobon.embrc.eu/emobon/sampling/BPNS/sediment/BPNS_So_220819> ; 
                     ] ; 
                 ] ; 
             ] ; 

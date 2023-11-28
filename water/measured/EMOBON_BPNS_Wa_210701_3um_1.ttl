@@ -14,7 +14,7 @@
 
 
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/chlorophyll>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/chlorophyll>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S27/current/CS002896/> ;
 
@@ -25,10 +25,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGPL/> ; 
     ] ;
     schema:measurementTechnique 'HPLC'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/conduc>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/conduc>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/CNDCZZ01/> ;
 
@@ -39,10 +39,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/MSCM/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/density>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/density>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/SIGT/> ;
 
@@ -53,10 +53,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGMC/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/diss_oxygen>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/diss_oxygen>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/DOXMZZXX/> ;
 
@@ -67,10 +67,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/nitrate>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/nitrate>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRAZZXX/> ;
 
@@ -81,10 +81,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/nitrite>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/nitrite>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P01/current/NTRIZZXX/> ;
 
@@ -95,10 +95,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/pressure>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/pressure>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/S06/current/S0600274/> ;
 
@@ -109,10 +109,10 @@
         qudt:unit <https://qudt.org/vocab/unit/ATM> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_subsurf_salinity>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_subsurf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
 
@@ -123,10 +123,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_subsurf_temp>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_subsurf_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
 
@@ -137,10 +137,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_surf_salinity>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_surf_salinity>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/A05/current/EV_SALIN/> ;
 
@@ -151,10 +151,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UGKG/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_surf_temp>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/sea_surf_temp>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/TEMP/> ;
 
@@ -165,10 +165,10 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPAA/> ; 
     ] ;
     schema:measurementTechnique 'CTD'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .
 
-<http://www.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/silicate>
+<http://data.emobon.embrc.eu/emobon/observation/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1/silicate>
     a sosa:Observation, schema:Observation ;
     sosa:observedProperty <http://vocab.nerc.ac.uk/collection/P02/current/SLCA/> ;
 
@@ -179,5 +179,5 @@
         qudt:unit <http://vocab.nerc.ac.uk/collection/P06/current/UPOX/> ; 
     ] ;
     schema:measurementTechnique 'SEAL QuAAtro analysis system + Skalar AutoAnalyser system'^^xsd:string ;
-    sosa:hasFeatureOfInterest <http://www.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
+    sosa:hasFeatureOfInterest <http://data.emobon.embrc.eu/emobon/sample/BPNS/water/EMOBON_BPNS_Wa_210701_3um_1> ; 
 .

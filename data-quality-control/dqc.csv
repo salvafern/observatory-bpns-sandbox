@@ -1,4 +1,6 @@
 diagnosis,table,column,row,value,repair,extended_diagnosis,file_path,data_type,nullable
+organization edmoid error,so,organization_edmoid,1,422; 449; 432; 2248,https://edmo.seadatanet.org/report/422;https://edmo.seadatanet.org/report/449;https://edmo.seadatanet.org/report/432;https://edmo.seadatanet.org/report/2248,organization edmoid should be a list of URIs,/github/workspace/logsheets-filtered/sediment_observatory.csv,EMOBONList,False
+organization edmoid error,wo,organization_edmoid,1,422;449;432;2248,https://edmo.seadatanet.org/report/422;https://edmo.seadatanet.org/report/449;https://edmo.seadatanet.org/report/432;https://edmo.seadatanet.org/report/2248,organization edmoid should be a list of URIs,/github/workspace/logsheets-filtered/water_observatory.csv,EMOBONList,False
 x after y violation,ss,ship_date_seq,39,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets-filtered/sediment_sampling.csv,XSDDate,False
 x after y violation,ss,ship_date_seq,40,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets-filtered/sediment_sampling.csv,XSDDate,False
 x after y violation,ss,ship_date_seq,45,2022-07-18 00:00:00,,ship_date_seq must be after ship_date (y = 2022-09-26 00:00:00),/github/workspace/logsheets-filtered/sediment_sampling.csv,XSDDate,False
@@ -39,7 +41,6 @@ datatype mismatch,so,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,26567,http://marineregions.org/mrgid/26567,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_regional_mrgid,1,2350,http://marineregions.org/mrgid/2350,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
-datatype mismatch,so,organization_edmoid,1,422; 449; 432; 2248,https://edmo.seadatanet.org/report/422; 449; 432; 2248,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,ENA_accession_number_project,1,PRJEB51652,https://www.ebi.ac.uk/ena/browser/view/PRJEB51652,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,ENA_accession_number_umbrella,1,PRJEB51688,https://www.ebi.ac.uk/ena/browser/view/PRJEB51688,,/github/workspace/logsheets-filtered/sediment_observatory.csv,XSDAnyURI,False
 missing value,ss,ENA_accession_number_sample,1,,,,/github/workspace/logsheets-filtered/sediment_sampling.csv,XSDAnyURI,False
@@ -1504,7 +1505,6 @@ datatype mismatch,wo,contact_orcid,1,0000-0002-8559-3508,https://orcid.org/0000-
 datatype mismatch,wo,loc_broad_ocean_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,loc_loc_mrgid,1,26567,http://marineregions.org/mrgid/26567,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,loc_regional_mrgid,1,2350,http://marineregions.org/mrgid/2350,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
-datatype mismatch,wo,organization_edmoid,1,422;449;432;2248,https://edmo.seadatanet.org/report/422;449;432;2248,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,ENA_accession_number_project,1,PRJEB51652,https://www.ebi.ac.uk/ena/browser/view/PRJEB51652,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 datatype mismatch,wo,ENA_accession_number_umbrella,1,PRJEB51688,https://www.ebi.ac.uk/ena/browser/view/PRJEB51688,,/github/workspace/logsheets-filtered/water_observatory.csv,XSDAnyURI,False
 missing value,ws,ENA_accession_number_sample,1,,,,/github/workspace/logsheets-filtered/water_sampling.csv,XSDAnyURI,False
