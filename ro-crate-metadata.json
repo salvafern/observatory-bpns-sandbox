@@ -5,7 +5,7 @@
             "@id": "./",
             "@type": "Dataset",
             "conformsTo": {
-                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.9"
+                "@id": "https://data.emobon.embrc.eu/observatory-profile/0.10"
             },
             "datePublished": "2023-09-26T13:20:39+00:00"
         },
@@ -20,7 +20,7 @@
             }
         },
         {
-            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.9",
+            "@id": "https://data.emobon.embrc.eu/observatory-profile/0.10",
             "@type": "CreativeWork",
             "name": "<name>",
             "version": "<version>"
