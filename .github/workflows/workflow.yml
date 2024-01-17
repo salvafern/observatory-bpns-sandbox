@@ -21,7 +21,7 @@ jobs:
       - name: rocrate-sembench-setup
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
-          PROFILE: $PROFILE
+          PROFILE: '$PROFILE'
       - name: semantify
         uses: vliz-be-opsci/semantify@main
       - name: rocrate-to-pages
