@@ -2,8 +2,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '0 0 1 */6 *'
-env:
-  PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.11 # is duplicated in config/workflow_properties.yml
 jobs:
   job:
     runs-on: ubuntu-latest
@@ -21,7 +19,7 @@ jobs:
       - name: rocrate-sembench-setup
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
-          PROFILE: '$PROFILE'
+          PROFILE: https://data.emobon.embrc.eu/observatory-profile/0.11
       - name: semantify
         uses: vliz-be-opsci/semantify@main
       - name: rocrate-to-pages
