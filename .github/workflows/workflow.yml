@@ -6,7 +6,7 @@ jobs:
   job:
     runs-on: ubuntu-latest
     env:
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.13
+      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.14
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -31,6 +31,13 @@ jobs:
           REPO: ${{ github.repository }}
       - name: rocrate-to-pages
         uses: vliz-be-opsci/rocrate-to-pages@latest
+        with:
+          multiple_rocrates: true
+          RELEASE_management: false
+          RELEASE_versioning: tag
+          INCLUDE_draft: false
+          draft_folder_name: latest
+          index_html: false
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
