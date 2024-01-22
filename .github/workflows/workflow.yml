@@ -33,10 +33,8 @@ jobs:
         uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
           multiple_rocrates: true
-          RELEASE_management: false
-          RELEASE_versioning: tag
-          INCLUDE_draft: false
-          draft_folder_name: latest
+          release_management: false
+          include_draft: false
           index_html: false
       - name: actions-gh-pages
         uses: peaceiris/actions-gh-pages@v3
