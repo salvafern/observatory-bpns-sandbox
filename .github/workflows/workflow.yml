@@ -1,4 +1,4 @@
-name: Linked Data ETL CI/CD
+name: linked-data-etl
 on:
   workflow_dispatch:
   schedule:
