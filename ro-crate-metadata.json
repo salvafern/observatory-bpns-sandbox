@@ -1,13 +1,1314 @@
 {
-    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@context": [
+        "https://w3id.org/ro/crate/1.1/context",
+        {
+            "accessURL": "https://www.w3.org/ns/dcat#accessURL"
+        }
+    ],
     "@graph": [
         {
             "@id": "./",
             "@type": "Dataset",
+            "accessURL": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/ro-crate-metadata.json",
             "conformsTo": {
                 "@id": "https://data.emobon.embrc.eu/observatory-profile/0.14"
             },
-            "datePublished": "2024-02-01T12:02:51+00:00"
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "emobon@embrc.eu"
+            },
+            "datePublished": "2024-02-01T12:02:57+00:00",
+            "description": "This RO-Crate/GitHub repository contains the EMO BON sampling event logsheets from the observatory BPNS",
+            "hasPart": [
+                {
+                    "@id": ".gitignore"
+                },
+                {
+                    "@id": "README.md"
+                },
+                {
+                    "@id": ".github/workflows/workflow.yml"
+                },
+                {
+                    "@id": "config/workflow_properties.yml"
+                },
+                {
+                    "@id": "data-quality-control/dqc.csv"
+                },
+                {
+                    "@id": "data-quality-control/logfile"
+                },
+                {
+                    "@id": "data-quality-control/report.csv"
+                },
+                {
+                    "@id": ".github/"
+                },
+                {
+                    "@id": "config/"
+                },
+                {
+                    "@id": "data-quality-control/"
+                },
+                {
+                    "@id": "logsheets/"
+                },
+                {
+                    "@id": "logsheets/sediment_measured.csv"
+                },
+                {
+                    "@id": "logsheets/sediment_observatory.csv"
+                },
+                {
+                    "@id": "logsheets/sediment_sampling.csv"
+                },
+                {
+                    "@id": "logsheets/water_measured.csv"
+                },
+                {
+                    "@id": "logsheets/water_observatory.csv"
+                },
+                {
+                    "@id": "logsheets/water_sampling.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/"
+                },
+                {
+                    "@id": "logsheets-filtered/sediment_measured.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/sediment_observatory.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/sediment_sampling.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/water_measured.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/water_observatory.csv"
+                },
+                {
+                    "@id": "logsheets-filtered/water_sampling.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/"
+                },
+                {
+                    "@id": "logsheets-transformed/sediment_measured.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/sediment_observatory.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/sediment_sampling.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/water_measured.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/water_observatory.csv"
+                },
+                {
+                    "@id": "logsheets-transformed/water_sampling.csv"
+                },
+                {
+                    "@id": "rdf/water/"
+                },
+                {
+                    "@id": "rdf/sediment/"
+                },
+                {
+                    "@id": "rdf/water/measured/"
+                },
+                {
+                    "@id": "rdf/water/observatory/"
+                },
+                {
+                    "@id": "rdf/water/sampling/"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_2"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_1"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_4"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_3"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_blank"
+                },
+                {
+                    "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_1"
+                },
+                {
+                    "@id": "rdf/water/observatory/BPNS"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_220322"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_220819"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_220601"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_211223"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_220420"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_210825"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_210701"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_230621"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_211028"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_230216"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_221212"
+                },
+                {
+                    "@id": "rdf/water/sampling/BPNS_Wa_221027"
+                },
+                {
+                    "@id": "rdf/sediment/measured/"
+                },
+                {
+                    "@id": "rdf/sediment/observatory/"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_blank"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_2"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_1"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_3"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_4"
+                },
+                {
+                    "@id": "rdf/sediment/observatory/BPNS"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_221027"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_211028"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_221212"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_220601"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_220819"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_210726"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_210701"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_230425"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_211223"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_220322"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_210825"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_230216"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_220420"
+                },
+                {
+                    "@id": "rdf/sediment/sampling/BPNS_So_230621"
+                }
+            ],
+            "keywords": [
+                "https://www.w3.org/TR/vocab-ssn/#SOSASampling",
+                "https://rs.tdwg.org/terms/Event",
+                "https://schema.org/Dataset",
+                "EMO BON"
+            ],
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "publisher": "https://www.embrc.eu/emo-bon",
+            "title": "observatory-bpns-sandbox",
+            "version": "<version>"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -17,13 +1318,2688 @@
             },
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
-            }
+            },
+            "version": "<version>"
         },
         {
             "@id": "https://data.emobon.embrc.eu/observatory-profile/0.14",
             "@type": "CreativeWork",
             "name": "<name>",
             "version": "<version>"
+        },
+        {
+            "@id": ".gitignore",
+            "@label": "./.gitignore",
+            "@type": "File",
+            "encodingFormat": "text/plain"
+        },
+        {
+            "@id": "README.md",
+            "@label": "./README.md",
+            "@type": "File",
+            "encodingFormat": "text/markdown"
+        },
+        {
+            "@id": ".github/workflows/workflow.yml",
+            "@label": "./.github/workflows/workflow.yml",
+            "@type": "File",
+            "encodingFormat": "application/x-yaml"
+        },
+        {
+            "@id": "config/workflow_properties.yml",
+            "@label": "./config/workflow_properties.yml",
+            "@type": "File",
+            "encodingFormat": "application/x-yaml"
+        },
+        {
+            "@id": "data-quality-control/dqc.csv",
+            "@label": "./data-quality-control/dqc.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": "data-quality-control/logfile",
+            "@label": "./data-quality-control/logfile",
+            "@type": "File",
+            "encodingFormat": "text/plain"
+        },
+        {
+            "@id": "data-quality-control/report.csv",
+            "@label": "./data-quality-control/report.csv",
+            "@type": "File",
+            "encodingFormat": "text/csv"
+        },
+        {
+            "@id": ".github/",
+            "@label": "./.github/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "config/",
+            "@label": "./config/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "data-quality-control/",
+            "@label": "./data-quality-control/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "logsheets/",
+            "@label": "./logsheets/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "logsheets/sediment_measured.csv",
+            "@label": "./logsheets/sediment_measured.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the environmental measurements from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/sediment_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets/sediment_observatory.csv",
+            "@label": "./logsheets/sediment_observatory.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the observatory metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/sediment_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets/sediment_sampling.csv",
+            "@label": "./logsheets/sediment_sampling.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the sample and event metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/sediment_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets/water_measured.csv",
+            "@label": "./logsheets/water_measured.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the environmental measurements from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/water_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets/water_observatory.csv",
+            "@label": "./logsheets/water_observatory.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the observatory metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/water_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets/water_sampling.csv",
+            "@label": "./logsheets/water_sampling.csv",
+            "@type": "File",
+            "description": "Raw logsheet of the sample and event metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets/water_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/",
+            "@label": "./logsheets-filtered/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "logsheets-filtered/sediment_measured.csv",
+            "@label": "./logsheets-filtered/sediment_measured.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the environmental measurements from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/sediment_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/sediment_observatory.csv",
+            "@label": "./logsheets-filtered/sediment_observatory.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the observatory metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/sediment_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/sediment_sampling.csv",
+            "@label": "./logsheets-filtered/sediment_sampling.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the sample and event metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/sediment_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/water_measured.csv",
+            "@label": "./logsheets-filtered/water_measured.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the environmental measurements from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/water_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/water_observatory.csv",
+            "@label": "./logsheets-filtered/water_observatory.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the observatory metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/water_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-filtered/water_sampling.csv",
+            "@label": "./logsheets-filtered/water_sampling.csv",
+            "@type": "File",
+            "description": "Filtered logsheet of the sample and event metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-filtered/water_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/",
+            "@label": "./logsheets-transformed/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "logsheets-transformed/sediment_measured.csv",
+            "@label": "./logsheets-transformed/sediment_measured.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the environmental measurements from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/sediment_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/sediment_observatory.csv",
+            "@label": "./logsheets-transformed/sediment_observatory.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the observatory metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/sediment_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/sediment_sampling.csv",
+            "@label": "./logsheets-transformed/sediment_sampling.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the sample and event metadata from the sediment sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/sediment_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_03000033"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/water_measured.csv",
+            "@label": "./logsheets-transformed/water_measured.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the environmental measurements from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/water_measured.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "http://ecoinformatics.org/oboe/oboe.1.0/oboe-core.owl#Measurement",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/water_observatory.csv",
+            "@label": "./logsheets-transformed/water_observatory.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the observatory metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/water_observatory.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://purl.org/dc/terms/Location",
+                "https://schema.org/ContactPoint",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "logsheets-transformed/water_sampling.csv",
+            "@label": "./logsheets-transformed/water_sampling.csv",
+            "@type": "File",
+            "description": "Transformed logsheet of the sample and event metadata from the water sampling events",
+            "downloadUrl": "https://raw.githubusercontent.com/emo-bon/observatory-bpns-sandbox/main/logsheets-transformed/water_sampling.csv",
+            "encodingFormat": "text/csv",
+            "keywords": [
+                "metadata",
+                "https://rs.tdwg.org/terms/Event",
+                "http://purl.obolibrary.org/obo/ENVO_06105011"
+            ]
+        },
+        {
+            "@id": "rdf/water/",
+            "@label": "./rdf/water/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/sediment/",
+            "@label": "./rdf/sediment/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/water/measured/",
+            "@label": "./rdf/water/measured/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/water/observatory/",
+            "@label": "./rdf/water/observatory/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/water/sampling/",
+            "@label": "./rdf/water/sampling/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220601_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_200um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_3um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220420_20um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_0.2um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210701_20um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220819_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_20um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_200um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_0.2um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230621_3um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_210825_20um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_2",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211028_20um_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_211223_3um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_0.2um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_220322_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_4",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221027_3um_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_3",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_200um_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_blank",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_221212_200um_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_1",
+            "@label": "./rdf/water/measured/EMOBON_BPNS_Wa_230216_0.2um_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/observatory/BPNS",
+            "@label": "./rdf/water/observatory/BPNS",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_220322",
+            "@label": "./rdf/water/sampling/BPNS_Wa_220322",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_220819",
+            "@label": "./rdf/water/sampling/BPNS_Wa_220819",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_220601",
+            "@label": "./rdf/water/sampling/BPNS_Wa_220601",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_211223",
+            "@label": "./rdf/water/sampling/BPNS_Wa_211223",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_220420",
+            "@label": "./rdf/water/sampling/BPNS_Wa_220420",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_210825",
+            "@label": "./rdf/water/sampling/BPNS_Wa_210825",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_210701",
+            "@label": "./rdf/water/sampling/BPNS_Wa_210701",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_230621",
+            "@label": "./rdf/water/sampling/BPNS_Wa_230621",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_211028",
+            "@label": "./rdf/water/sampling/BPNS_Wa_211028",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_230216",
+            "@label": "./rdf/water/sampling/BPNS_Wa_230216",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_221212",
+            "@label": "./rdf/water/sampling/BPNS_Wa_221212",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/water/sampling/BPNS_Wa_221027",
+            "@label": "./rdf/water/sampling/BPNS_Wa_221027",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/",
+            "@label": "./rdf/sediment/measured/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/sediment/observatory/",
+            "@label": "./rdf/sediment/observatory/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/sediment/sampling/",
+            "@label": "./rdf/sediment/sampling/",
+            "@type": "Dataset"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_macro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_macro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220322_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220601_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230425_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210825_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210701_meio_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230621_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221212_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_blank",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211223_micro_blank",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_macro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_2",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_211028_micro_2",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_1",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_210726_micro_1",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220420_macro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_micro_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_3",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_221027_meio_3",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_230216_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_4",
+            "@label": "./rdf/sediment/measured/EMOBON_BPNS_So_220819_micro_4",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/observatory/BPNS",
+            "@label": "./rdf/sediment/observatory/BPNS",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_221027",
+            "@label": "./rdf/sediment/sampling/BPNS_So_221027",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_211028",
+            "@label": "./rdf/sediment/sampling/BPNS_So_211028",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_221212",
+            "@label": "./rdf/sediment/sampling/BPNS_So_221212",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_220601",
+            "@label": "./rdf/sediment/sampling/BPNS_So_220601",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_220819",
+            "@label": "./rdf/sediment/sampling/BPNS_So_220819",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_210726",
+            "@label": "./rdf/sediment/sampling/BPNS_So_210726",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_210701",
+            "@label": "./rdf/sediment/sampling/BPNS_So_210701",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_230425",
+            "@label": "./rdf/sediment/sampling/BPNS_So_230425",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_211223",
+            "@label": "./rdf/sediment/sampling/BPNS_So_211223",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_220322",
+            "@label": "./rdf/sediment/sampling/BPNS_So_220322",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_210825",
+            "@label": "./rdf/sediment/sampling/BPNS_So_210825",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_230216",
+            "@label": "./rdf/sediment/sampling/BPNS_So_230216",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_220420",
+            "@label": "./rdf/sediment/sampling/BPNS_So_220420",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
+        },
+        {
+            "@id": "rdf/sediment/sampling/BPNS_So_230621",
+            "@label": "./rdf/sediment/sampling/BPNS_So_230621",
+            "@type": "File",
+            "encodingFormat": "text/turtle"
         }
     ]
 }
