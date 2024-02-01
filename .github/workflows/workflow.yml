@@ -1,3 +1,4 @@
+name: Linked Data ETL CI/CD
 on:
   workflow_dispatch:
   schedule:
@@ -12,23 +13,41 @@ jobs:
         uses: actions/checkout@v3
       - name: download
         uses: emo-bon/logsheet-downloader-action@master
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of logsheet-downloader-action
       - name: data-quality-control-action
         uses: emo-bon/data-quality-control-action@main
         env:
           PAT: ${{ secrets.PAT }}
           REPO: ${{ github.repository }}
           ASSIGNEE: bulricht
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of data-quality-control-action
       - name: rocrate-sembench-setup
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
       - name: semantify
         uses: vliz-be-opsci/semantify@main
+      - name: rocrate-sembench-cleanup
+        run: rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of semantify
       - name: rocrate-metadata-generator-action
         uses: emo-bon/rocrate-metadata-generator-action@main
         env:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
           REPO: ${{ github.repository }}
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of rocrate-metadata-generator-action
       - name: rocrate-to-pages
         uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
@@ -41,7 +60,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./unicornpages
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: workflow run
