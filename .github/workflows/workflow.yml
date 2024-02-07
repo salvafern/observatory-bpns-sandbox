@@ -17,46 +17,46 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: update on behalf of logsheet-downloader-action
-      - name: data-quality-control-action
-        uses: emo-bon/data-quality-control-action@main
-        env:
-          PAT: ${{ secrets.PAT }}
-          REPO: ${{ github.repository }}
-          ASSIGNEE: bulricht
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: update on behalf of data-quality-control-action
-      - name: rocrate-sembench-setup
-        uses: vliz-be-opsci/rocrate-sembench-setup@main
-        env:
-          PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-      - name: semantify
-        uses: vliz-be-opsci/semantify@main
-      - name: rocrate-sembench-cleanup
-        run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: update on behalf of semantify
-      - name: rocrate-metadata-generator-action
-        uses: emo-bon/rocrate-metadata-generator-action@main
-        env:
-          PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-          REPO: ${{ github.repository }}
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: update on behalf of rocrate-metadata-generator-action
-      - name: rocrate-to-pages
-        uses: vliz-be-opsci/rocrate-to-pages@latest
-        with:
-          multiple_rocrates: true
-          release_management: false
-          include_draft: false
-          index_html: false
-      - name: actions-gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./unicornpages
+      # - name: data-quality-control-action
+      #   uses: emo-bon/data-quality-control-action@main
+      #   env:
+      #     PAT: ${{ secrets.PAT }}
+      #     REPO: ${{ github.repository }}
+      #     ASSIGNEE: bulricht
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: update on behalf of data-quality-control-action
+      # - name: rocrate-sembench-setup
+      #   uses: vliz-be-opsci/rocrate-sembench-setup@main
+      #   env:
+      #     PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
+      # - name: semantify
+      #   uses: vliz-be-opsci/semantify@main
+      # - name: rocrate-sembench-cleanup
+      #   run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: update on behalf of semantify
+      # - name: rocrate-metadata-generator-action
+      #   uses: emo-bon/rocrate-metadata-generator-action@main
+      #   env:
+      #     PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
+      #     REPO: ${{ github.repository }}
+      # - name: git-auto-commit-action
+      #   uses: stefanzweifel/git-auto-commit-action@v5
+      #   with:
+      #     commit_message: update on behalf of rocrate-metadata-generator-action
+      # - name: rocrate-to-pages
+      #   uses: vliz-be-opsci/rocrate-to-pages@latest
+      #   with:
+      #     multiple_rocrates: true
+      #     release_management: false
+      #     include_draft: false
+      #     index_html: false
+      # - name: actions-gh-pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./unicornpages
