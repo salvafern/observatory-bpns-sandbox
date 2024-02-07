@@ -17,16 +17,16 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: update on behalf of logsheet-downloader-action
-      # - name: data-quality-control-action
-      #   uses: emo-bon/data-quality-control-action@main
-      #   env:
-      #     PAT: ${{ secrets.PAT }}
-      #     REPO: ${{ github.repository }}
-      #     ASSIGNEE: bulricht
-      # - name: git-auto-commit-action
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: update on behalf of data-quality-control-action
+      - name: data-quality-control-action
+        uses: emo-bon/data-quality-control-action@main
+        env:
+          PAT: ${{ secrets.PAT }}
+          REPO: ${{ github.repository }}
+          ASSIGNEE: bulricht
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of data-quality-control-action
       # - name: rocrate-sembench-setup
       #   uses: vliz-be-opsci/rocrate-sembench-setup@main
       #   env:
