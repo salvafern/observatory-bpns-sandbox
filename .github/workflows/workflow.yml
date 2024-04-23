@@ -33,8 +33,8 @@ jobs:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
       - name: semantify
         uses: vliz-be-opsci/semantify@main
-      - name: rocrate-sembench-cleanup
-        run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
+      # - name: rocrate-sembench-cleanup
+      #   run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
