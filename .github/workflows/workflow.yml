@@ -31,6 +31,10 @@ jobs:
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of semantify
       - name: semantify
         uses: vliz-be-opsci/semantify@main
       # - name: rocrate-sembench-cleanup
