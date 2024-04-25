@@ -81,11 +81,6 @@ datatype mismatch,sm,diss_oxygen,136,Expected 12-2024,,,/github/workspace/logshe
 datatype mismatch,sm,diss_oxygen,137,Expected 12-2025,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,diss_oxygen,138,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,diss_oxygen,139,Expected 12-2025,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,diss_oxygen,140,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,diss_oxygen,141,Expected 12-2025,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,diss_oxygen,142,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,diss_oxygen,143,Expected 12-2025,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,diss_oxygen,144,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,ph,33,"5,96",5.96,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,ph,34,"5,96",5.96,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,ph,35,"5,96",5.96,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
@@ -122,28 +117,13 @@ datatype mismatch,sm,pressure,97,Expected 12-2024,,,/github/workspace/logsheets/
 datatype mismatch,sm,pressure,98,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,pressure,99,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,pressure,139,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,pressure,140,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,pressure,141,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,pressure,142,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,pressure,143,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,pressure,144,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,73,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,74,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,75,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,76,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,77,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_salinity,139,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,140,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,141,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,142,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,143,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
-datatype mismatch,sm,sea_surf_salinity,144,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,True
 datatype mismatch,sm,sea_surf_temp,139,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_temp,140,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_temp,141,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_temp,142,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_temp,143,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sea_surf_temp,144,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,sediment_temp,94,"7,8",7.8,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,sediment_temp,95,"7,8",7.8,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,sediment_temp,96,"7,8",7.8,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
@@ -151,11 +131,6 @@ datatype mismatch,sm,sediment_temp,97,"7,8",7.8,,/github/workspace/logsheets/fil
 datatype mismatch,sm,sediment_temp,98,"7,8",7.8,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,sediment_temp,99,"7,8",7.8,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,sm,sediment_temp,139,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sediment_temp,140,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sediment_temp,141,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sediment_temp,142,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sediment_temp,143,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
-datatype mismatch,sm,sediment_temp,144,Expected 12-2024,,,/github/workspace/logsheets/filtered/sediment_measured.csv,XSDFloat,False
 datatype mismatch,so,loc_broad_ocean_mrgid,1,1912,http://marineregions.org/mrgid/1912,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_loc_mrgid,1,26567,http://marineregions.org/mrgid/26567,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
 datatype mismatch,so,loc_regional_mrgid,1,2350,http://marineregions.org/mrgid/2350,,/github/workspace/logsheets/filtered/sediment_observatory.csv,XSDAnyURI,False
