@@ -7,34 +7,34 @@ jobs:
   job:
     runs-on: ubuntu-latest
     env:
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.17
+      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.18
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      # - name: download
-      #   uses: emo-bon/logsheet-downloader-action@master
-      # - name: git-auto-commit-action
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: update on behalf of logsheet-downloader-action
-      # - name: data-quality-control-action
-      #   uses: emo-bon/data-quality-control-action@main
-      #   env:
-      #     PAT: ${{ secrets.PAT }}
-      #     REPO: ${{ github.repository }}
-      #     ASSIGNEE: bulricht
-      # - name: git-auto-commit-action
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: update on behalf of data-quality-control-action
-      # - name: rocrate-sembench-setup
-      #   uses: vliz-be-opsci/rocrate-sembench-setup@main
-      #   env:
-      #     PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-      # - name: git-auto-commit-action
-      #   uses: stefanzweifel/git-auto-commit-action@v5
-      #   with:
-      #     commit_message: update on behalf of semantify
+      - name: download
+        uses: emo-bon/logsheet-downloader-action@master
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of logsheet-downloader-action
+      - name: data-quality-control-action
+        uses: emo-bon/data-quality-control-action@main
+        env:
+          PAT: ${{ secrets.PAT }}
+          REPO: ${{ github.repository }}
+          ASSIGNEE: bulricht
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of data-quality-control-action
+      - name: rocrate-sembench-setup
+        uses: vliz-be-opsci/rocrate-sembench-setup@main
+        env:
+          PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of semantify
       - name: semantify
         uses: vliz-be-opsci/semantify@main
       # - name: rocrate-sembench-cleanup
