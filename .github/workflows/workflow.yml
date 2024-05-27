@@ -52,6 +52,14 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: update on behalf of rocrate-metadata-generator-action
+      - name: rdf-aggregate-action
+        uses: vliz-be-opsci/rdf-aggregate-action@main
+        env:
+          GLOBS: sediment/**/*:ttl|water/**/*:ttl|ro-crate-metadata.json:json-ld
+      - name: git-auto-commit-action
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: update on behalf of rdf-aggregate-action
       - name: rocrate-to-pages
         uses: vliz-be-opsci/rocrate-to-pages@latest
         with:
