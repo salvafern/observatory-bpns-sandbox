@@ -7,7 +7,7 @@ jobs:
   job:
     runs-on: ubuntu-latest
     env:
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.21
+      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.22
     steps:
       - name: checkout
         uses: actions/checkout@v3
