@@ -31,12 +31,10 @@ jobs:
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-      - name: git-auto-commit-action
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: update on behalf of (debugging)
       - name: semantic-uplifting-action
         uses: emo-bon/semantic-uplifting-action@main
+      - name: rocrate-sembench-cleanup
+        run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
