@@ -24,7 +24,7 @@ jobs:
         env:
           PAT: ${{ secrets.PAT }}
           REPO: ${{ github.repository }}
-          ASSIGNEE: bulricht
+          ASSIGNEE: salvafern
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
