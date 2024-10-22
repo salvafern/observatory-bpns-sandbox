@@ -7,7 +7,7 @@ jobs:
   job:
     runs-on: ubuntu-latest
     env:
-      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.22
+      ROCRATE_PROFILE_URI: https://data.emobon.embrc.eu/observatory-profile/0.27
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -31,14 +31,14 @@ jobs:
         uses: vliz-be-opsci/rocrate-sembench-setup@main
         env:
           PROFILE: ${{ env.ROCRATE_PROFILE_URI }}
-      - name: semantify
-        uses: vliz-be-opsci/semantify@main
+      - name: semantic-uplifting-action
+        uses: emo-bon/semantic-uplifting-action@main
       - name: rocrate-sembench-cleanup
         run: sudo rm -rf ~sembench_data_cache/ ~sembench_kwargs.json
       - name: git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: update on behalf of semantify
+          commit_message: update on behalf of semantic-uplifting-action
       - name: rocrate-metadata-generator-action
         uses: emo-bon/rocrate-metadata-generator-action@main
         env:
